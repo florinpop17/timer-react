@@ -1,0 +1,16 @@
+.top-bar{
+    background-color: #333333;
+}
+
+.top-bar ul {
+    background-color: transparent;
+}
+
+.menu-text {
+    color: white;
+}
+
+.menu > .menu-text > a{
+    display: inline;
+    padding: 0;
+}
