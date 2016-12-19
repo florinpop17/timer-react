@@ -18,14 +18,14 @@ var Controls = React.createClass({
             if(countdownStatus === 'started') {
                 return <button className="button secondary" onClick={this.onStatusChange('pause')}>Pause</button>
             } else if(countdownStatus === 'pause') {
-                return <button className="button primary" onClick={this.onStatusChange('start')>Start</button>
+                return <button className="button primary" onClick={this.onStatusChange('started')}>Start</button>
             } 
         };
         
         return (
             <div className="controls">
                 {renderStartStopButton()}
-                <button className="button alert hollow" onClick={this.onStatusChange('stopped')>Clear</button>
+                <button className="button alert hollow" onClick={this.onStatusChange('stopped')}>Clear</button>
             </div>
         )
     }
