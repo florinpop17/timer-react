@@ -49,3 +49,7 @@
 .controls .button:first-child {
     margin-right: 1.5rem;
 }
+
+h1 {
+    margin-top: 3rem;
+}
