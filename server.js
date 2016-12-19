@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
     }
 });
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.get('/', function (req, res) {
    res.send("Hello World!"); 
