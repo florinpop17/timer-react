@@ -31,7 +31,6 @@ node_modules
 jspm_packages
 .idea/
 .idea
-idea
 
 # Optional npm cache directory
 .npm
